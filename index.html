@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Simple FAQ | devChallenges.io</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Inter, sans-serif;
+        display: flex;
+        flex-direction: column;
+      }
+
+      main {
+        flex: 1;
+      }
+
+      .container {
+        /* max-width: 1024px; */
+        /* max-width: 720px; */
+        max-width: 600px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .text-center{
+        text-align: center;
+      }
+
+      .heading--1{
+        font-size: 36px;
+        font-weight: 600;
+      }
+      
+      .heading--2{
+        font-size: 24px;
+        font-weight: 600;
+      }
+
+      .body--text {
+        font-size: 16px;
+        font-weight: 400;
+      }
+
+      .pl-7 {
+        padding-left: 1.75rem;
+      }
+
+      .pt-20 {
+        padding-top: 5rem;
+      }
+
+      .pb-20 {
+        padding-bottom: 5rem;
+      }
+
+      .mt-4 {
+        margin-top: 1rem;
+      }
+
+      .mb-4{
+        margin-bottom: 1rem;
+      }
+
+      .mt-7 {
+        margin-top: 1.75rem;
+      }
+
+      .mb-7 {
+        margin-bottom: 1.75rem;
+      }
+
+      .bg-white-50{
+        background-color: #f8fafc;
+      }
+
+      .bg-gray-50{
+        background-color: #F8FAFC;
+      }
+
+      .text-blue-500 {
+        color: #4e80ee;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      ul,
+      ol {
+        list-style-position: outside;
+      }
+
+      ul > li, ol > li {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      hr {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-top: 5px;
+        border-color: #d2d5da;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="pb-20 pt-20">
+      <div class="container">
+        <h1 class="heading--1 text-center mb-4">Frequently Asked Questions</h1>
+        <p class="body--text text-center">Browse through the most frequently asked questions</p>
+      </div>
+    </header>
+
+    <main class="pb-20 pt-20 bg-gray-50">
+      <div class="container">
+        <section>
+          <h2 class="heading--2 mb-7">How can I track my order?</h2>
+          <p class="body--text mb-7 ">You can track your order using the following steps</p>
+
+          <ol class="mt-4  pl-7">
+            <li>Go to the Order <a href="" class="text-blue-500">Tracking page</a>.</li>
+            <li>Enter your order number and email address.</li>
+            <li>
+              Click on the Track Order button to view the current status of your
+              shipment.
+            </li>
+          </ol>
+
+          <p class="body--text mt-7">
+            If you encounter any issues, please visit our
+            <a href="" class="text-blue-500">Help Center</a>.
+          </p>
+        </section>
+
+        <hr />
+
+        <section>
+          <h2 class="heading--2 mb-7">What is your return policy?</h2>
+          <p class="body--text mb-7">
+            We offer a 30-day return policy on most items. Here are some key
+            points
+          </p>
+
+          <ul class="mb-4 mt-4 pl-7">
+            <li>
+              <b>Items must be in original condition:</b> Unworn, unused, and
+              unwashed.
+            </li>
+            <li>
+              <b>Include original packaging and tags: </b>
+              All items should be returned with their original packaging and
+              tags.
+            </li>
+            <li>
+              <b> Proof of purchase:</b>A receipt or proof of purchase is
+              required.
+            </li>
+          </ul>
+
+          <p class="mb-4 mt-7">
+            For more detailed information, read our full
+            <a href="" class="text-blue-500">Return Policy</a>.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <!-- <div class="author-info">
+      Coded by <a href="#">Your Name Here</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div> -->
+  </body>
+</html>
