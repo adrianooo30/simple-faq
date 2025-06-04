@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name} | devChallenges</h1>
+<h1 align="center">adrianooo | devChallenges</h1>
 
 <div align="center">
    Solution for a challenge <a href="https://devchallenges.io/challenge/simple-faq-challenge" target="_blank">Simple FAQ</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href="https://adrianooo30.github.io/simple-faq/design/Desktop_1350px.jpg">
       Demo
     </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="https://adrianooo30.github.io/simple-faq">
       Solution
     </a>
     <span> | </span>
@@ -74,5 +74,5 @@ To myself
 
 ## Author
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
+<!-- - Website [adrianooo30.github.io](https://adrianooo30.github.io) -->
+- GitHub [@adrianooo30](https://github.com/adrianooo30)
